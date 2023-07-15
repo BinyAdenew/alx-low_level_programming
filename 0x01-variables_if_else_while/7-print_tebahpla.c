@@ -2,17 +2,18 @@ include <stdio.h>
 
 /**
  * main - prints the lowercase alphabet in reverse,
- * followed by a new line
- * Return: Always 0 (Success)
+ * 
+ * Return: Always 0
  */
 int main(void)
 {
-	char ch; = "abcdefghijklmnopqrstuvwxyz";
+	char letter;
 
-	for (ch = 'z'; ch >= 'a'; ch--)
+	for (letter = 'z'; letter >= 'a'; letter--)
 	{
-		putchar(ch);
+		putchar(letter);
 	}
 	putchar('\n');
+	
 	return (0);
 }
