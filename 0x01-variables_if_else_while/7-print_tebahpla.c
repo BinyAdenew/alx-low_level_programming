@@ -7,7 +7,7 @@ include <stdio.h>
  */
 int main(void)
 {
-	char ch;[26] = "abcdefghijklmnopqrstuvwxyz";
+	char ch; = "abcdefghijklmnopqrstuvwxyz";
 
 	for (ch = 'z'; ch >= 'a'; ch--)
 	{
