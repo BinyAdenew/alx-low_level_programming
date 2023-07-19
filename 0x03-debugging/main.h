@@ -7,3 +7,7 @@ void print_remaining_days(int month, int day, int year);
 int convert_day(int month, int day);
 #endif
 
+<<<<<<< HEAD
+=======
+#endif
+>>>>>>> 1c6897fd007145584da47d7c3c6079ad31f3c162
